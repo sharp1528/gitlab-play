@@ -1,0 +1,18 @@
+image: php:alpine
+
+before_script:
+  - uname -n
+  - id
+  - pwd
+  - which php
+  - php -v
+
+job_shell:
+  script:
+    - echo "this is shell"
+
+job_docker:
+  script:
+    - echo "this is docker"
+  tags:
+    - docker
