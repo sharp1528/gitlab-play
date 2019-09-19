@@ -9,4 +9,4 @@ before_script:
 job_shell:
   script:
     - echo "this is shell"
-    - gradle build -x test
+    - gradle -x test
