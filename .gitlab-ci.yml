@@ -1,18 +1,12 @@
-image: php:alpine
+image: gradle:5.6.2-jdk8
 
 before_script:
   - uname -n
   - id
   - pwd
-  - which php
-  - php -v
+  - gradle -v
 
 job_shell:
   script:
     - echo "this is shell"
-
-job_docker:
-  script:
-    - echo "this is docker"
-  tags:
-    - docker
+    - gradle test
