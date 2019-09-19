@@ -1,3 +1,3 @@
 # gitlab-play
 
-dev2
+devですよ。
