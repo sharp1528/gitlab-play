@@ -6,7 +6,7 @@
  */
 public class Library {
     public boolean someLibraryMethod() {
-    	// uusstt
+    	// uusstttt
         return true;
     }
 }
